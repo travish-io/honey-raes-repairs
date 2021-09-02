@@ -1,12 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import { BrowserRouter } from "react-router-dom";
 import { Repairs } from "./components/Repairs";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 ReactDOM.render(
   <React.StrictMode>
-    <Repairs />
+    <BrowserRouter>
+      <Repairs />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById("root")
 );

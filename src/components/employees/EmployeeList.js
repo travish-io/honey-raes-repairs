@@ -22,7 +22,7 @@ export const EmployeeList = () => {
       </div>
       {employees.map((employeeObject) => {
         return (
-          <h3 key={`employee--${employeeObject.id}`}>{employeeObject.name}</h3>
+          <h4 key={`employee--${employeeObject.id}`}>{employeeObject.name}</h4>
         );
       })}
     </>
